@@ -3,11 +3,7 @@ body {
     background-color: #fff;
     color: #434455;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
 }
 body a {
     font-style: normal;
@@ -20,9 +16,10 @@ h1, h2, h3 {
 body .header-second {
     font-size: 36px;
     font-weight: 700;
-    text-align: center;
     line-height: 1.11;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
 }
 body .header-third {
     font-size: 20px;
@@ -32,6 +29,10 @@ body .header-third {
 }
 ul {
     list-style-type: none;
+}
+body .paragraf-item {
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 body button {
     background-color: #4D5AE5;
@@ -104,11 +105,6 @@ body .address {
 body .section-second {
 }
 /* SECTION 3 */
-.section-third .header-second {
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
 body .section-third {
     background-color: #F4F4FD;
 }
@@ -125,9 +121,6 @@ body .section-third {
 body .section-fourth{
 }
 .section-fourth .header-second {
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
 }
 /* FOOTER */
 body .footer {
@@ -144,4 +137,6 @@ body .footer {
 }
 .footer .paragraf-item-footer {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
