@@ -35,7 +35,6 @@ ul {
 }
 body button {
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 /* LOGO */
 body .logo {
@@ -82,7 +81,6 @@ body .address {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.11px;
-    width: 496px;
 }
 .section-first .order-service {
     color: #FFF;
